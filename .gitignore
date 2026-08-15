@@ -1,0 +1,111 @@
+# ============================================================
+# Unity
+# ============================================================
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Unity generated files
+*.log
+sysinfo.txt
+
+# Memory captures / recordings
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# ============================================================
+# IDE / Editor
+# ============================================================
+
+.vs/
+.vscode/
+.idea/
+.gradle/
+
+# Visual Studio / Rider generated files
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Rider
+*.DotSettings.user
+
+# ============================================================
+# OS
+# ============================================================
+
+.DS_Store
+Thumbs.db
+
+# ============================================================
+# Unity generated meta/debug files
+# ============================================================
+
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Crash reports
+mono_crash.*
+crashlytics-build.properties
+
+# ============================================================
+# Builds
+# ============================================================
+
+*.apk
+*.aab
+*.app
+*.unitypackage
+
+# ============================================================
+# Addressables
+# ============================================================
+
+/ServerData
+/[Aa]ssets/StreamingAssets/aa*
+/[Aa]ssets/AddressableAssetsData/link.xml*
+/[Aa]ssets/Addressables_Temp*
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+
+# ============================================================
+# Unity generated assets
+# ============================================================
+
+/[Aa]ssets/Plugins/Editor/JetBrains*
+/[Aa]ssets/Unity.VisualScripting.Generated/
+
+# TestRunner generated scenes
+InitTestScene*.unity*
+
+# ============================================================
+# Meta Quest / XR
+# ============================================================
+
+# Do NOT ignore Assets, Packages or ProjectSettings!
+# Meta Quest / OpenXR packages are referenced through Packages/
+# and their configuration is stored in ProjectSettings/.
+
+# ============================================================
+# Optional: local secrets / credentials
+# ============================================================
+
+.env
+.env.*
+!.env.example
