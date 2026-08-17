@@ -1570,7 +1570,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1161010155}
         m_TargetAssemblyTypeName: AvatarDialogue, Assembly-CSharp
         m_MethodName: StartNPCDialogue
         m_Mode: 1
@@ -2898,7 +2898,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1012122808
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6417,7 +6417,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1728463307
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6633,7 +6633,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1736957210
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7116,7 +7116,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 834067651}
         m_TargetAssemblyTypeName: AvatarDialogue, Assembly-CSharp
         m_MethodName: StartNPCDialogue
         m_Mode: 1
@@ -8070,7 +8070,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 667817044}
         m_TargetAssemblyTypeName: AvatarDialogue, Assembly-CSharp
         m_MethodName: StartNPCDialogue
         m_Mode: 1
