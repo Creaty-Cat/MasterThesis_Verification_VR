@@ -13803,7 +13803,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2092716376}
         m_TargetAssemblyTypeName: AvatarRing, Assembly-CSharp
-        m_MethodName: OpenInterface
+        m_MethodName: ToggleInterface
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
