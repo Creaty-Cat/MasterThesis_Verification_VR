@@ -1933,7 +1933,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &330756538
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3108,8 +3108,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11b31288e40871740afd5f3e3ac31ce9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ModerationManager
-  BlockInterface: {fileID: 1959761203}
-  ReportInterface: {fileID: 1968086286}
+  BlockInterface: {fileID: 330756537}
+  ReportInterface: {fileID: 1121362178}
   Verification1: {fileID: 1367437451}
   Verification1_Unfolded: {fileID: 740410815}
 --- !u!1 &518051225
@@ -6422,7 +6422,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1121362179
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13293,7 +13293,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1959761204
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13416,7 +13416,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1968086287
 RectTransform:
   m_ObjectHideFlags: 0
