@@ -1190,7 +1190,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 717250024}
+      - m_Target: {fileID: 717250026}
         m_TargetAssemblyTypeName: BlockController, Assembly-CSharp
         m_MethodName: BlockUser
         m_Mode: 1
@@ -1332,7 +1332,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &181654236
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1538,6 +1538,71 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 185476698}
   m_CullTransparentMesh: 1
+--- !u!1 &191747125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 191747128}
+  - component: {fileID: 191747127}
+  - component: {fileID: 191747126}
+  m_Layer: 0
+  m_Name: BlockManager2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &191747126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191747125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230a0356e84b1574fb771508d1e67651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BlockController
+  interfaceToClose: {fileID: 1618564805}
+  blockInformation: {fileID: 2038381122}
+  avatar: {fileID: 820736048}
+  badge: {fileID: 1402906067}
+--- !u!114 &191747127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191747125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230a0356e84b1574fb771508d1e67651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BlockController
+  interfaceToClose: {fileID: 0}
+  blockInformation: {fileID: 0}
+  avatar: {fileID: 0}
+  badge: {fileID: 0}
+--- !u!4 &191747128
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191747125}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.92204, y: 2.04398, z: 3.03856}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &225420886
 GameObject:
   m_ObjectHideFlags: 0
@@ -3607,6 +3672,138 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 529805001}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &535644765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 535644766}
+  - component: {fileID: 535644769}
+  - component: {fileID: 535644768}
+  - component: {fileID: 535644767}
+  m_Layer: 5
+  m_Name: Badge1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &535644766
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535644765}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
+  m_LocalScale: {x: 0.0062981406, y: 0.007435822, z: 0.0135196755}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1166495411}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -3.27, y: -1.4308982}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &535644767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535644765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 535644768}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 295831499}
+        m_TargetAssemblyTypeName: ToggleInterface, Assembly-CSharp
+        m_MethodName: Toggle
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 181654235}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &535644768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535644765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.06415099, g: 0.06039876, b: 0.06039876, a: 0.654902}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &535644769
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535644765}
+  m_CullTransparentMesh: 1
 --- !u!1 &541258315
 GameObject:
   m_ObjectHideFlags: 0
@@ -5347,8 +5544,9 @@ GameObject:
   m_Component:
   - component: {fileID: 717250025}
   - component: {fileID: 717250024}
+  - component: {fileID: 717250026}
   m_Layer: 0
-  m_Name: BlockManager
+  m_Name: BlockManager1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5366,9 +5564,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 230a0356e84b1574fb771508d1e67651, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockController
-  interfaceToClose: {fileID: 181654235}
-  blockInformation: {fileID: 789407055}
-  avatar: {fileID: 449775533}
+  interfaceToClose: {fileID: 0}
+  blockInformation: {fileID: 0}
+  avatar: {fileID: 0}
+  badge: {fileID: 0}
 --- !u!4 &717250025
 Transform:
   m_ObjectHideFlags: 0
@@ -5384,51 +5583,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &758313629
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 758313631}
-  - component: {fileID: 758313630}
-  m_Layer: 0
-  m_Name: ReportManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &758313630
+--- !u!114 &717250026
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 758313629}
+  m_GameObject: {fileID: 717250023}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b391cc6ea06f88543a182d5228439d89, type: 3}
+  m_Script: {fileID: 11500000, guid: 230a0356e84b1574fb771508d1e67651, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ReportController
-  reportInterface: {fileID: 225420886}
---- !u!4 &758313631
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 758313629}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.92204, y: 2.04398, z: 3.03856}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_EditorClassIdentifier: Assembly-CSharp::BlockController
+  interfaceToClose: {fileID: 181654235}
+  blockInformation: {fileID: 789407055}
+  avatar: {fileID: 449775533}
+  badge: {fileID: 535644765}
 --- !u!1 &773190229
 GameObject:
   m_ObjectHideFlags: 0
@@ -5977,6 +6147,11 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &820736048 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 14995e4d90321784d951b277e7831852, type: 3}
+  m_PrefabInstance: {fileID: 1764187662}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &832301936
 GameObject:
   m_ObjectHideFlags: 0
@@ -6910,13 +7085,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 758313630}
-        m_TargetAssemblyTypeName: ReportController, Assembly-CSharp
-        m_MethodName: ReportUser
-        m_Mode: 1
+      - m_Target: {fileID: 295831499}
+        m_TargetAssemblyTypeName: ToggleInterface, Assembly-CSharp
+        m_MethodName: Toggle
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 225420886}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -9316,6 +9491,7 @@ RectTransform:
   m_LocalScale: {x: 0.12385395, y: 0.14186907, z: 0.225189}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 535644766}
   - {fileID: 789407056}
   - {fileID: 181654236}
   m_Father: {fileID: 0}
@@ -9427,13 +9603,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 758313630}
-        m_TargetAssemblyTypeName: ReportController, Assembly-CSharp
-        m_MethodName: ReportUser
-        m_Mode: 1
+      - m_Target: {fileID: 295831499}
+        m_TargetAssemblyTypeName: ToggleInterface, Assembly-CSharp
+        m_MethodName: Toggle
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 2134566903}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -11512,7 +11688,7 @@ GameObject:
   - component: {fileID: 1402906070}
   - component: {fileID: 1402906069}
   m_Layer: 5
-  m_Name: Badge
+  m_Name: Badge2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15925,7 +16101,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 717250024}
+      - m_Target: {fileID: 191747126}
         m_TargetAssemblyTypeName: BlockController, Assembly-CSharp
         m_MethodName: BlockUser
         m_Mode: 1
@@ -17077,7 +17253,7 @@ GameObject:
   - component: {fileID: 2038381125}
   - component: {fileID: 2038381124}
   m_Layer: 5
-  m_Name: blockingInterface
+  m_Name: blockingInterface2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17668,7 +17844,7 @@ GameObject:
   - component: {fileID: 2134566906}
   - component: {fileID: 2134566905}
   m_Layer: 5
-  m_Name: reportingInterface
+  m_Name: reportingInterface2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17748,6 +17924,6 @@ SceneRoots:
   - {fileID: 1166495411}
   - {fileID: 1017280965}
   - {fileID: 717250025}
-  - {fileID: 758313631}
+  - {fileID: 191747128}
   - {fileID: 593428226}
   - {fileID: 295831500}
