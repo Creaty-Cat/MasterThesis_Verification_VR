@@ -4,7 +4,7 @@ public class CloseController : MonoBehaviour
 {
     [SerializeField] private GameObject closeInterface;
 
-    public void Close()
+    public void Close(GameObject closeInterface)
     {
         closeInterface.SetActive(false);
     }
