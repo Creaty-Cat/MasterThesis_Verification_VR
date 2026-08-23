@@ -6,6 +6,8 @@ public class BlockController : MonoBehaviour
     [SerializeField] private GameObject blockInformation;
     [SerializeField] private GameObject avatar;
     [SerializeField] private GameObject badge;
+    [SerializeField] private GameObject blockInterface1;
+
 
 
     public void BlockUser()
@@ -14,6 +16,7 @@ public class BlockController : MonoBehaviour
         interfaceToClose.SetActive(false);
         avatar.SetActive(false);
         badge.SetActive(false);
+        blockInterface1.SetActive(false);
         
     }
 }
