@@ -3,28 +3,21 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    public void LoadScene(string sceneName)
+    public void LoadInterfaceA()
     {
-        SceneManager.LoadScene(sceneName);
+        Debug.Log("LoadInterfaceA wurde aufgerufen!");
+        SceneManager.LoadScene("InterfaceA");
     }
 
-    public void LoadScene1()
+    public void LoadInterfaceB()
     {
-        LoadScene("Interface A");
-    }
-
-    public void LoadScene2()
-    {
-        LoadScene("Interface B");
-    }
-
-    public void LoadMainMenu()
-    {
-        LoadScene("Menu");
+        Debug.Log("LoadInterfaceB wurde aufgerufen!");
+        SceneManager.LoadScene("InterfaceB");
     }
 
     public void QuitApplication()
     {
+        Debug.Log("QuitApplication wurde aufgerufen!");
         Application.Quit();
     }
 }
