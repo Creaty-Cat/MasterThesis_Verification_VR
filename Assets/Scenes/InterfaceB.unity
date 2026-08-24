@@ -1763,6 +1763,8 @@ MonoBehaviour:
   avatar: {fileID: 820736048}
   badge: {fileID: 56553867}
   blockInterface1: {fileID: 956331501}
+  openClock: {fileID: 124283391}
+  interfaceToBlock: 1
 --- !u!114 &191747127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1780,6 +1782,8 @@ MonoBehaviour:
   avatar: {fileID: 449775533}
   badge: {fileID: 535644765}
   blockInterface1: {fileID: 1954943690}
+  openClock: {fileID: 124283391}
+  interfaceToBlock: 0
 --- !u!4 &191747128
 Transform:
   m_ObjectHideFlags: 0
@@ -6645,6 +6649,8 @@ MonoBehaviour:
   avatar: {fileID: 0}
   badge: {fileID: 0}
   blockInterface1: {fileID: 0}
+  openClock: {fileID: 0}
+  interfaceToBlock: 1
 --- !u!4 &717250025
 Transform:
   m_ObjectHideFlags: 0
@@ -6677,6 +6683,8 @@ MonoBehaviour:
   avatar: {fileID: 449775533}
   badge: {fileID: 535644765}
   blockInterface1: {fileID: 1954943690}
+  openClock: {fileID: 124283391}
+  interfaceToBlock: 0
 --- !u!1 &766331576
 GameObject:
   m_ObjectHideFlags: 0
