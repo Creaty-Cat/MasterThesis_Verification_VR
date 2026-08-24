@@ -15287,7 +15287,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 5b691bc09b14b424db4f287ecda6b549, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 97dac010575580644a73168002053c8d, type: 2}
+      objectReference: {fileID: 2100000, guid: ce80f73e26355c340a052cabfdd4b02c, type: 2}
     - target: {fileID: 919132149155446097, guid: 5b691bc09b14b424db4f287ecda6b549, type: 3}
       propertyPath: m_Name
       value: Ring (1)
@@ -15355,10 +15355,34 @@ MonoBehaviour:
       m_Calls: []
   m_HoverEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 980286260}
+        m_TargetAssemblyTypeName: AvatarRing, Assembly-CSharp
+        m_MethodName: HoverEnter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_HoverExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 980286260}
+        m_TargetAssemblyTypeName: AvatarRing, Assembly-CSharp
+        m_MethodName: HoverExit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstSelectEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -15440,6 +15464,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AvatarRing
   interfaceUI: {fileID: 1774422936}
+  ringRenderer: {fileID: 980286261}
+  normalEmission: {r: 0.5764706, g: 0.03921568, b: 0.042515256, a: 1}
+  hoverEmission: {r: 0.93962264, g: 0, b: 0.1065551, a: 1}
+  normalIntensity: 1
+  hoverIntensity: 3
+--- !u!23 &980286261 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 5b691bc09b14b424db4f287ecda6b549, type: 3}
+  m_PrefabInstance: {fileID: 980286255}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &980383916
 GameObject:
   m_ObjectHideFlags: 0
@@ -33816,10 +33850,34 @@ MonoBehaviour:
       m_Calls: []
   m_HoverEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2092716376}
+        m_TargetAssemblyTypeName: AvatarRing, Assembly-CSharp
+        m_MethodName: HoverEnter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_HoverExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2092716376}
+        m_TargetAssemblyTypeName: AvatarRing, Assembly-CSharp
+        m_MethodName: HoverExit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstSelectEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -33880,6 +33938,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AvatarRing
   interfaceUI: {fileID: 927524854}
+  ringRenderer: {fileID: 2092716380}
+  normalEmission: {r: 0.14746167, g: 0.5444869, b: 0.5622641, a: 1}
+  hoverEmission: {r: 0.23339976, g: 0.8415094, b: 0.8415094, a: 1}
+  normalIntensity: 1
+  hoverIntensity: 3
 --- !u!65 &2092716379
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33901,6 +33964,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.01987391, y: 0.019873906, z: 0.020000715}
   m_Center: {x: -0.000000011175871, y: -0.0000000018626451, z: -0.00000022853504}
+--- !u!23 &2092716380 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 5b691bc09b14b424db4f287ecda6b549, type: 3}
+  m_PrefabInstance: {fileID: 2092716371}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2106176171
 GameObject:
   m_ObjectHideFlags: 0
