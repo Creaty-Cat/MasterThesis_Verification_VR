@@ -8,7 +8,7 @@ public class ButtonBehavior : MonoBehaviour
     public GameObject Verification1;
     public GameObject Verification1_Unfolded;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    //to unfold reasons
     public void ButtonVerificationReasons()
     {
         Verification1.SetActive(false);
@@ -22,7 +22,7 @@ public class ButtonBehavior : MonoBehaviour
         Verification1.SetActive(true);
     }
 
-    // Update is called once per frame
+    
     void Start()
     {
         unfoldButton.onClick.AddListener(ButtonVerificationReasons);

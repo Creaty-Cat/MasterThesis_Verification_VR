@@ -37,8 +37,10 @@ public class AvatarDialogue : MonoBehaviour
 
 	void ShowDialogue()
 	{
+		//Get the currently active dialogue entry
 		DialogueStep step = dialogue[currentStep];
 
+		//display avatar text
 		avatarText.text = step.avatarText;
 
 		for (int i = 0; i < optionButtons.Length; i++)
@@ -47,12 +49,15 @@ public class AvatarDialogue : MonoBehaviour
 			{
 				optionButtons[i].gameObject.SetActive(true);
 
+				//Set the button text to the user option
 				optionButtons[i].GetComponentInChildren<TMP_Text>().text = step.userOptions[i].text;
 
+				//Button click event to corresponding option
 				optionButtons[i].onClick.RemoveAllListeners();
 
 				int optionIndex = i;
 
+				//Hide unused buttons
 				optionButtons[i].onClick.AddListener(
 					() => SelectionOption(optionIndex)
 				);
@@ -66,6 +71,7 @@ public class AvatarDialogue : MonoBehaviour
 
 	void SelectionOption(int optionIndex)
 	{
+		//Retrieve selected option from the current dialogue step
 		DialogueOption selectedOption = dialogue[currentStep].userOptions[optionIndex];
 
 		if(selectedOption.openPopup)
@@ -78,6 +84,7 @@ public class AvatarDialogue : MonoBehaviour
 		}
 	}
 
+	//popup window with additional info
 	void ShowPopup(string text)
 	{
 		popup.SetActive(true);
